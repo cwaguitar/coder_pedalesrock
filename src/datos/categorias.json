@@ -1,0 +1,21 @@
+{
+    "Categorias":
+    [
+        {
+            "id": 1,
+            "nombre": "Distortion"
+        },
+        {
+            "id": 2,
+            "nombre": "Overdrive"
+        },
+        {
+            "id": 3,
+            "nombre": "Reverb"
+        },
+        {
+            "id": 8,
+            "nombre": "Varios"
+        }
+    ]
+}
