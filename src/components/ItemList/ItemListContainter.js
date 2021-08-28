@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
-import Loader from "./../Loader/Loader";
 import {database} from "../../firebase/firebase";
 
 const ItemListContainer = () => {   
@@ -36,14 +35,7 @@ const ItemListContainer = () => {
         <div className="contenedor">
             <ItemList displayItems={displayItems} />
         </div>
-        // <>
-        // {
-        // displayItems.length ? (
-        //     ) : (
-        //         <Loader/> 
-        //     )
-        // }
-        // </>
+     
     );
      
 };

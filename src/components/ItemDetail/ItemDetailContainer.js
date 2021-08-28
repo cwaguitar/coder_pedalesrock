@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-// import Loader from "./../Loader/Loader"
 import ItemDetail from "./ItemDetail";  
 import {database} from "../../firebase/firebase";
 
@@ -27,14 +26,7 @@ const DetailContainer = () => {
     
     return (
         <ItemDetail {...itemToDisplay} id={id} />
-    //     <> { 
-    //     itemToDisplay.length ?  
-    //     ( 
-    //     ) : (
-    //         <Loader/>    
-    //     )
-    // }
-    //  </>
+
     );
 };
 
