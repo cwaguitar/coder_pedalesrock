@@ -11,7 +11,7 @@ const NavBar = () => {
     
     return (
         <nav>
-            <NavLink to="/" className="titulo-prin" >Casa Musical</NavLink>
+            <NavLink to="/" className="titulo-prin" >Pedales Rock</NavLink>
 
             <ul>
                 {Categorias.map((cat) => (
